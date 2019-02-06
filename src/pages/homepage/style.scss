@@ -1,0 +1,50 @@
+
+  .container {
+    padding: 10px 10px;
+    position: relative;
+
+  }
+  .car-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+  }
+//   .list-item {
+//     
+
+//     align-items: center;
+//     width: 100%;
+//     backface-visibility: hidden;
+//     perspective: 1000px;
+    
+//   }
+  .card {
+
+  }
+
+  .list-item {
+    position: relative;
+    padding: 0px 10px;
+    margin: 0 10px;
+    background: red;
+    display: none;
+    align-items: center;
+    width: 100%;
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  .list-item--active {
+    display: block;
+    background: gray;
+    color: white;
+    transition: transform 1.5s ease;
+  }
+  .order-st {
+      order: 6;
+  }
+//   .order-nd {
+//     order: 6;
+// }
